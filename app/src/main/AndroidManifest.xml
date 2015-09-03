@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="materialteste.com.br.porteiroadmin" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".activitys.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".activitys.Portaria_Principal"
+            android:label="@string/title_activity_portaria__principal" >
+        </activity>
+        <activity
+            android:name=".activitys.Portaria_NovaVisita"
+            android:label="@string/title_activity_portaria__nova_visita" >
+        </activity>
+        <activity
+            android:name=".activitys.Lista_visita"
+            android:label="@string/title_activity_lista_visita" >
+        </activity>
+        <activity
+            android:name=".activitys.PortariaDeletar"
+            android:label="@string/title_activity_portaria_deletar"
+            android:theme="@style/Base.V7.Theme.AppCompat.Dialog" >
+            <intent-filter>
+                <action android:name="EdicaoVisita" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.Cadastro_Princial"
+            android:label="@string/title_activity_cadastro__princial" >
+        </activity>
+        <activity
+            android:name=".activitys.CadastroPessoa"
+            android:label="@string/title_activity_cadastro_pessoa" >
+        </activity>
+        <activity
+            android:name=".activitys.CadastroVeiculo"
+            android:label="@string/title_activity_cadastro_veiculo" >
+        </activity>
+        <activity
+            android:name=".activitys.ListarPessoas"
+            android:label="@string/title_activity_listar_pessoas" >
+        </activity>
+        <activity
+            android:name=".activitys.Lista_Veiculos"
+            android:label="@string/title_activity_lista__veiculos" >
+        </activity>
+        <activity
+            android:name=".activitys.Notificacoes_Principal"
+            android:label="@string/title_activity_notificacoes__principal" >
+        </activity>
+        <activity
+            android:name=".activitys.NotificacaoNova"
+            android:label="@string/title_activity_notificacao_nova" >
+        </activity>
+        <activity
+            android:name=".activitys.ListaNotificacoes"
+            android:label="@string/title_activity_lista_notificacoes" >
+        </activity>
+        <activity
+            android:name=".activitys.NotificacoesDeletar"
+            android:label="@string/title_activity_notificacoes_deletar" >
+        </activity>
+        <activity
+            android:name=".activitys.Reserva_Principal"
+            android:label="@string/title_activity_reserva__principal" >
+        </activity>
+        <activity
+            android:name=".activitys.ReservaNova"
+            android:label="@string/title_activity_reserva_nova" >
+        </activity>
+
+        <activity
+            android:name=".activitys.testeCalendario"
+            android:label="@string/title_activity_teste_calendario" >
+        </activity>
+        <activity
+            android:name=".activitys.ListaReserva"
+            android:label="@string/title_activity_lista_reserva" >
+        </activity>
+        <activity
+            android:name=".activitys.Inicializacao"
+            android:label="@string/title_activity_inicializacao"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activitys.LoginSistema"
+            android:label="@string/title_activity_login_sistema" >
+        </activity>
+    </application>
+
+</manifest>

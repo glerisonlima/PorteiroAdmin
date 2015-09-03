@@ -1,0 +1,100 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5C6BC0"
+    >
+
+    <TextView
+        android:id="@+id/txvTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:text="Controle de Condominio"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top">
+
+        <TextView
+            android:id="@+id/txvPortaria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_account_box_white_48dp"
+            android:onClick="selecionarOpcao"
+            android:text="  Portaria"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:singleLine="false" />
+
+
+
+        <TextView
+            android:id="@+id/txvReserva"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:layout_alignTop="@id/txvPortaria"
+            android:drawableTop="@drawable/ic_attach_file_white_48dp"
+            android:onClick="selecionarOpcao"
+            android:text="  Reservas"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top">
+
+    <TextView
+        android:id="@+id/txvCadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        android:clickable="true"
+        android:drawableTop="@drawable/ic_folder_shared_white_48dp"
+        android:onClick="selecionarOpcao"
+        android:text="  Cadastro"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:singleLine="false" />
+
+
+
+    <TextView
+        android:id="@+id/txvNotificacoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:clickable="true"
+        android:layout_alignTop="@id/txvCadastro"
+        android:drawableTop="@drawable/ic_notifications_on_white_48dp"
+        android:onClick="selecionarOpcao"
+        android:text="Notificações"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
+

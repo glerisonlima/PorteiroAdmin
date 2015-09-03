@@ -1,0 +1,59 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="left|top">
+
+        <TextView
+            android:id="@+id/txvNova_visita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="80dp"
+            android:clickable="true"
+            android:drawableTop="@drawable/ic_supervisor_account_white_48dp"
+            android:onClick="selecionarOpcao"
+            android:text="Cadastrar visitas"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:singleLine="false" />
+
+
+
+        <TextView
+            android:id="@+id/txvListaVis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="50dp"
+            android:clickable="true"
+            android:layout_alignTop="@id/txvNova_visita"
+            android:drawableTop="@drawable/ic_assignment_white_48dp"
+            android:onClick="selecionarOpcao"
+            android:text="Listar visitas"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Portaria"
+        android:id="@+id/textView2"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:textStyle="bold"/>
+</RelativeLayout>
+
